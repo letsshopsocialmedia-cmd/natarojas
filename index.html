@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LET'S SHOP BY NATA ROJAS</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(180deg, #000, #111);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* LOGO */
+.logo {
+    width: 140px;
+    margin-top: 30px;
+    filter: drop-shadow(0 0 8px rgba(212,175,55,0.5));
+}
+
+/* TITULO */
+h1 {
+    font-size: 24px;
+    margin: 15px 0 5px;
+    color: #d4af37;
+    letter-spacing: 2px;
+}
+
+.sub {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+/* BOTONES */
+.link {
+    display: block;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 30px;
+    border: 1px solid #d4af37;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.link:hover {
+    background: #d4af37;
+    color: black;
+    transform: scale(1.05);
+}
+
+/* EFECTO BRILLO */
+.link::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: gold;
+    transition: 0.4s;
+    margin: auto;
+}
+
+.link:hover::after {
+    width: 60%;
+}
+
+.footer {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #777;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LOGO -->
+    <img src="logo.png" class="logo">
+
+    <!-- TITULO -->
+    <h1>LET'S SHOP</h1>
+    <div class="sub">BY NATA ROJAS</div>
+
+    <!-- LINKS -->
+    <a class="link" href="https://wa.me/573223511890" target="_blank">WhatsApp</a>
+
+    <a class="link" href="https://chat.whatsapp.com/Kwz1a3ebMpGA9a9v0bKR7G" target="_blank">Grupo WhatsApp</a>
+
+    <a class="link" href="https://www.tiktok.com/@natarojas.shop?_r=1&_t=ZS-95M5BvGWiwi" target="_blank">TikTok</a>
+
+    <a class="link" href="https://www.instagram.com/natarojas.shop?igsh=aTMwczdneHc1aDhn" target="_blank">Instagram</a>
+
+    <a class="link" href="https://www.facebook.com/share/1bPga9LN5r/" target="_blank">Facebook</a>
+
+    <div class="footer">
+        © 2026 LET'S SHOP BY NATA ROJAS
+    </div>
+
+</div>
+
+</body>
+</html>
